@@ -10,7 +10,7 @@
 接着openstack-servernetwork.sh和openstack-clientnetwork.sh分别对Neutron的控制和子节点进行初始化，这步完成即可创建虚拟机开始测试；  网络服务
 然后是在控制节点上执行openstack-serverdashboard.sh开始支持GUI管理集群；                                                            WEB管理服务
 然后是openstack-servercinder.sh和openstack-clientcinder.sh分别对Cinder的控制和子节点进行初始化，这步完成可以提供类似云盘存储；     块存储服务
-最后是在控制节点上执行openstack-serverheat.sh支持对集群资源的编排                                                                  编排服务                                    
+最后是在控制节点上执行openstack-serverheat.sh支持对集群资源的编排                                                                  编排服务  
 -rw-r--r-- 1 root root  360 Sep 10 15:37 keystone_admin.sh
 -rw-r--r-- 1 root root  362 Sep 10 15:37 keystone_qjops.sh
 -rw-r--r-- 1 root root 2558 Sep 12 11:13 openstack-clientcinder.sh
